@@ -1,4 +1,8 @@
-div{column-gap: 30px;}
+div{
+    column-gap: 30px;
+    padding:10px;
+}
+
 .img-title{
     position: absolute;
     top: 50%;
