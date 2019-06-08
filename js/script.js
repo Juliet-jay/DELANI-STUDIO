@@ -1,5 +1,4 @@
-$(document).ready(function(){
-    $(".design") .click(function(){
-      $("#design-hide").toggle();
-      $("#design-show").toggle();
+
+    $(".img") .click(function(){
+      $(".par").toggle();
 });
