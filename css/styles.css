@@ -1,3 +1,4 @@
+div{column-gap: 30px;}
 .img-title{
     position: absolute;
     top: 50%;
@@ -7,4 +8,5 @@
 }
 
 
-.par{display:none;}
+.par,.pr,.pa{display:none;}
+
