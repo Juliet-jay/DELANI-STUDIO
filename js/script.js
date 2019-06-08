@@ -1,6 +1,6 @@
-$(document).ready(function(){
-    $("p").click(function(){
-        $("#Design-show").toggle();
-        $("#Design-hide").toggle();
+$(document).ready(function() {
+    $(".clickable1").click(function() {
+      $(".design-hidden").toggle();
+      $(".design-showing").toggle();
     });
-});
+  });
