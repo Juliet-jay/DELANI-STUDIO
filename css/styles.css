@@ -1,5 +1,5 @@
 div{
-    column-gap: 30px;
+    column-gap: 40px;
     padding:10px;
 }
 
@@ -12,5 +12,12 @@ div{
 }
 
 
-.par,.pr,.pa{display:none;}
+.par,.pr,.pa{
+    display:none;
+}
+.column{
+ padding: 5px;   
+
+}
+
 
