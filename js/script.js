@@ -1,6 +1,5 @@
-$(document).ready(function() {
-    $(".clickable1").click(function() {
-      $(".design-hidden").toggle();
-      $(".design-showing").toggle();
-    });
-  });
+$(document).ready(function(){
+    $(".design") .click(function(){
+      $("#design-hide").toggle();
+      $("#design-show").toggle();
+});
