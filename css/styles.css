@@ -27,6 +27,7 @@ div{
     background-position:center;
     width: 100%;
     text-align: center;
+    
 }
 .wedo{
     margin-left:15%;
@@ -36,3 +37,11 @@ margin-right: auto;}
     text-align: center;
 }
 
+.work{
+    display: none;
+}
+
+.img:hover img{
+    transform: scale(1.2);
+}
+    
