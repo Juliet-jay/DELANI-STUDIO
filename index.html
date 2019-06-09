@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
      <title>DELANI-STUDIO</title>   
-<head>   
+<head>  
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type"> 
  <link rel="stylesheet" href="css/bootstrap.css">
  <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+ <link rel="stylesheet"  href="css/mdb.css"> 
  <!-- /linking google fonts  -->
  <link href="https://fonts.googleapis.com/css?family=Lobster|Wallpoet&display=swap" rel="stylesheet">
  
@@ -12,7 +14,7 @@
 <body>
     <!-- ***page begins here -->
     
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
         <div id=img class="col text-center">
             <img src="img/assets/backgrounds/h_img.jpg" class="img-fluid" alt="logo.png">
@@ -21,7 +23,7 @@
             <h1>WELCOME</h1>
             <h1>TO DELANI STUDIO</h1>
             <P>Amazing pleople are making design in a fun enviroment</P>
-            <img src="img/assets/mouse_click.png">
+            <img src="img/assets/mouse_click.png"alt="image for clicking" class="mouse animated heartBeat infinite">
 
             </div>
           </div>
@@ -46,9 +48,6 @@
                 <div>
                 </div>
                 </div>
-               
-                  
-
                     
                      <h3 class="text-center">WHAT WE DO</h3>
                     <div class="row wedo">
@@ -72,47 +71,107 @@
                                 <figcaption>PRODUCT</figcaption>
                                 <p class="pa">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
                                         This iterative process allows for changes as business requirements evolve.</p>
-                        </div>
-
-                  
-                   
+                        </div> 
                    </div>
 
                    <h3 class="text-center">PORTFOLIO</h3>
                    <div class="row">
                         <div class="column col-md-3">
-                            <img src="img/assets/portfolio/work4.jpg" alt="work4"  style="width:100%;">
+                            <div class="img">
+                             <img src="img/assets/portfolio/work4.jpg" alt="work4"  style="width:100%" class="img-fluid">
+                             <div class="line">
+                                 <div class="work">
+                                   <p>work4</p>
+                                 </div>
+
+                             </div>
+                            </div>
+                            
                         </div>
                         <div class="column col-md-3">
-                            <img src="img/assets/portfolio/work3.jpg" alt="work3" style="width:100%;">
+                            <div class="img">
+                             <img src="img/assets/portfolio/work3.jpg" alt="work3" style="width:100%" class="img-fluid">
+                             <div class="line">
+                                 <div class="work">
+                                     <p>work3</p>
+                                 </div>
+
+                             </div>
+                            </div>
+                            
                         </div>
                         <div class="column col-md-3">
-                            <img src="img/assets/portfolio/work2.jpg" alt="word2" style="width:100%;">
+                            <div class="img">
+                            <img src="img/assets/portfolio/work2.jpg" alt="word2"  style="width:100%" class="img-fluid">
+                            <div class="line">
+                                <div class="work">
+                                    <p>work2</p>
+
+                                </div>
+
+                            </div>
+                            </div>
+                            
                         </div>
                             <div class="column col-md-3">
-                             <img src="img/assets/portfolio/work1.jpg" alt="work1"style="width:100%;">
+                                <div class="img">
+                             <img src="img/assets/portfolio/work1.jpg" alt="work1" style="width:100%" class="img-fluid">
+                             <div class="line">
+                                 <div class="work">
+                                     <p>work1</p>
+                                     
+                                 </div>
+
+                             </div>
+                                </div>
+
                         </div>
                       </div>
                       <div class="row">
                             <div class="column col-md-3">
-                                <img src="img/assets/portfolio/work5.jpg" alt="work5"style="width:100%;">
+                                <div class="img">
+                                 <img src="img/assets/portfolio/work5.jpg" alt="work5"  style="width:100%">
+                                 <div class="line">
+                                     <div class="work">
+                                         <p>work5</p>
+
+                                     </div>
+
+                                 </div>
+                                </div>
+                                
                             </div>
                             <div class="column col-md-3">
-                                <img src="img/assets/portfolio/work6.jpg" alt="work6"style="width:100%;">
+                                <div class="img">
+                                <img src="img/assets/portfolio/work6.jpg" alt="work6" style="width:100%">
+                                <div class="line">
+                                    <div class="work">
+                                        <p>work6</p>
+                                    </div>
+                                </div>
+                                </div>   
                             </div>
                             <div class="column col-md-3">
-                                <img src="img/assets/portfolio/work7.jpg" alt="work7"style="width:100%;">
+                                <div class="img">
+                                <img src="img/assets/portfolio/work7.jpg" alt="work7" style="width:100%">
+                                <div class="line">
+                                    <div class="work">
+                                        <p>work7</p>
+                                    </div>
+                                </div>
+                                </div> 
                             </div>
                             <div class="column col-md-3">
-                                <img src="img/assets/portfolio/work8.jpg" alt="work8"style="width:100%;">
+                                <div class="img">
+                                <img src="img/assets/portfolio/work8.jpg" alt="work8" style="width:100%">
+                                <div class="line">
+                                    <div class="work">
+                                        <p>work8</p>
+                                    </div>
+                                </div>
+                                </div>     
                             </div>
                           </div>
-                           
-                         
-                        
-                    
-                   
-            
                <div class="col contact">
                <h3>CONTACT US</h3> 
                <input id="name" type="text"style="background-color: transparent" placeholder="Name..." >
@@ -120,9 +179,9 @@
                <br>
                <textarea id="textarea"style="background-color: transparent" name="message" cols="60" rows="8" placeholder="Your message here..."></textarea>
                <br></br>
-               <button class="button" type="submit">Send</button>
+               <button id="input" class="button"type="submit">Send</button>
                
-               <em><p id="answer"></p></em>
+               
                <br>      
                 </div> 
                 <div id="social">
