@@ -24,9 +24,11 @@ div{
 .contact{
     background-image:url("../img/assets/backgrounds/c_image.jpg");
     background-size: cover;
-    background-position: center;
+    background-position:center;
     width: 100%;
+    text-align: center;
 }
-.wedo{margin-left: 15%;
+.wedo{
+    margin-left:15%;
 margin-right: auto;}
 
