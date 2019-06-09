@@ -1,7 +1,7 @@
 # Delani studio
 DELANI-STUDIO is a web app that provides a platform for hosting projects and art works. Some of the works are displayed on the portfolio on the landing page. This application runs on web browsers connected to internet.
 ## project by Juliet Muthee
-## date;9/6/2019
+## date:9/6/2019
 ### working of project
 The project runs on a browser,providing you with an option at the footer to send a project to be hosted online.
 ## bugs
@@ -14,9 +14,13 @@ In case of any bugs; Fork a repository
     Create a Pull Request or you can contact me via my email below.
  ### BDD
  Type name in the input field for name.
+
  Type email address.
- Type message in the message input field
+
+ Type message in the message input field.
+ 
  Hit the send button.
+ 
  You will get an alert confirming that your message have been recieved.
  #### setup
  git clone using this link https://github.com/Juliet-jay/DELANI-STUDIO.git
