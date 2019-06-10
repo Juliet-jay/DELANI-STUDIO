@@ -8,11 +8,42 @@ $(".imag") .click(function(){
 $(".i") .click(function(){
     $(".pa").toggle();
 });
-$("#w4").mouseenter(function () {
-    $(".w4").show();
+$('#hoVer').hover(function() {
+    $(this).children(".overlay").fadeToggle(1000, "linear");
+    $(this).toggle(css('.'))
+    $(".tExt").toggle();
+    $('.line').showToggle();
+
+   
+});
+$('.line').hover(function() {
+  $(this).animate({
+    opacity: '1'
+  });
+},
+function() {
+  $(this).animate({
+    opacity: '0'
+  });
 });
 
-$("#w4").mouseleave(function () {
-    $(".w4").hide();
-});
+  $('.line').hover(function(){
+  	$(this).animate({
+  		opacity: '0'
+  	})
+  })
+  $("#input").submit(function(event){
+    var name = $("input#name").val();
+    var email =$("input#email").val();
+    var textarea=$("input#message").val();
+    if(name && email && message != " " ){
+        alert( name + "Thankyou for contacting us,your message has been received");
+    }
+    else{
+        alert("invalid");
+    }
+    event.preventDefault();
+   });
+
+  
 });

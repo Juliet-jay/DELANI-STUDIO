@@ -1,3 +1,6 @@
+body{
+    text-align: center;
+}
 div{
     column-gap: 40px;
     padding: 10px;
@@ -17,21 +20,49 @@ border: 2px solid white;}
     display:none;
 }
 .column{
-    column-gap: 5px;   
+    column-gap: 5px;  
+} 
+    .tExt{
+        padding-top:50%;
+        color: wheat;
+        font-size: x-large;
+        font-weight: 800;
+        /* border: 5px solid wheat;
+        height:25%;
+        text-align: center; */
+        
+      }
 
-}
+
+.line{
+    background-color: rgba(250, 250, 250, 0.6);
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    margin-top: -84%;
+    opacity: 0;
+    text-align:center;
+  }
+  
+  .line{
+    margin-top: -90%;
+  }
+
+  #social{
+      text-align: center;
+  }
 
 .contact{
-    background-image:url("../img/assets/backgrounds/c_image.jpg");
+   background-image:url("img/assets/backgrounds/c_image.jpg");
     background-size: cover;
     background-position:center;
     width: 100%;
     text-align: center;
     
 }
-.wedo{
+/* .wedo{
     margin-left:15%;
-margin-right: auto;}
+margin-right: auto;} */
 
 #social{
     text-align: center;
@@ -46,13 +77,61 @@ margin-right: auto;}
     display: none;
 }
 
+.line{
+    margin-top: -90%;
+  }
 .container-fluid{
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
+    /* margin-right: auto;
+    margin-left: auto */
 }
+#hoVer{
+    margin:10px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #hoVer:hover img {
+    transform: scale(1.2) ;
+    transition: all 0.8s ease;
+    opacity: 80%;
+    background-color:grey;
+    border: 5px solid black;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+  }
+  
+  .icon:hover png{
+    transform:scale3d(1.2);
+    transition:all 1s;
+    border: green;
+    -webkit-transform:scale3d(1.2);
+    -moz-transform:scale3d(1.2);
+    -ms-transform:scale3d(1.2);
+    -o-transform:scale3d(1.2);
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    -ms-transition:all 1s;
+    -o-transition:all 1s;
+  }
+  
+  
+  overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+
+  .cont{
+      padding-top: 5%;
+  }
 
 
 
