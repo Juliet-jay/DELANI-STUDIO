@@ -1,6 +1,6 @@
 div{
     column-gap: 40px;
-    padding:10px;
+    padding: 10px;
     display: block;
 }
 
@@ -11,8 +11,8 @@ div{
     transform: translate(-50%,-50%);
     color: white;
 }
-
-
+.text-block{display: none;
+border: 2px solid white;}
 .par,.pr,.pa{
     display:none;
 }
@@ -44,4 +44,14 @@ margin-right: auto;}
 .img:hover img{
     transform: scale(1.2);
 }
+.container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+
+
     
