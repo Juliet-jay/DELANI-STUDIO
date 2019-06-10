@@ -38,12 +38,14 @@ margin-right: auto;}
 }
 
 .work{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
     display: none;
 }
 
-.img:hover img{
-    transform: scale(1.2);
-}
 .container-fluid{
     width: 100%;
     padding-right: 15px;
