@@ -32,7 +32,9 @@ function() {
   		opacity: '0'
   	})
   })
-  $("#input").submit(function(event){
+  
+});
+$("#input").submit(function(event){
     var name = $("input#name").val();
     var email =$("input#email").val();
     var textarea=$("input#message").val();
@@ -44,6 +46,3 @@ function() {
     }
     event.preventDefault();
    });
-
-  
-});
